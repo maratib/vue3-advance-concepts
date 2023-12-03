@@ -12,7 +12,8 @@ import Bar from '@/components/Bar.vue'
 
 
 const render = () => {
-  return h('div', [h(Foo), h(Bar)])
+  return h('div', [h(Foo), h(Bar)]) //Multiple elements
+  // return h(Foo) //Single elements
 }
 
 </script>
